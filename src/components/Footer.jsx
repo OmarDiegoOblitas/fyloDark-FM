@@ -52,7 +52,7 @@ const Footer = () => {
             eiusmod tempor incididunt ut labore et dolore magna aliqua
           </p>
         </div>
-        <div className="flex flex-col py-8 mx-16">
+        <div className="flex flex-col py-8 xl:mx-4 ml-16">
           <div className="flex gap-4 items-center my-6 ">
             <img src={phone} alt="" />
             <span>+1-543-123-4567</span>
@@ -69,7 +69,7 @@ const Footer = () => {
             ))}
           </span>
         </div>
-        <div className="flex justify-center items-center pb-12 gap-4 w-32 mt-8 mx-32 ">
+        <div className="flex justify-center pb-12 xl:pb-12 gap-4 w-32 xl:mt-10 ml-8 ">
           <i class="fab fa-facebook-f"></i>
           <i class="fab fa-instagram"></i>
           <i class="fab fa-twitter"></i>

@@ -25,7 +25,7 @@ const Testimoni = () => {
     },
   ];
   return (
-    <div className="flex flex-col justify-around mx-40 gap-6 pt-40 mb-36 ">
+    <div className="flex flex-col xl:justify-around xl:flex-row mx-40 gap-6 pt-40 mb-36 ">
       {card.map(({ info, image, name, range }, index) => (
         <div className="bg-slate-600 p-8 rounded-lg" key={index}>
           <span>{info}</span>
